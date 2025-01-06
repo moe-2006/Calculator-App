@@ -1,8 +1,7 @@
 public class maths {
 
-public static void addnumber(int a, int b){
-    double moe = Math.pow((a+b),2);
-    int eom = (int)moe;
-    System.out.println(eom);
+public static double addnumber(double a, double b){
+    double sum = a + b;
+    return sum;
 }
 }
